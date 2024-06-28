@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Our Products</title>
+</head>
+
+<body>
+    <style>
+        a:link, a:visited{
+            color: black;
+            padding: 40px, 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block; 
+        }   
+
+        a:hover{
+            background-color: rgb(220,220,220);
+            color: black;
+            padding: 40px, 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+                }
+        </style>
+        <a href = "#Mens" style="font-size: 60px; text-align: justify;">Mens</a>
+        <a href = "#WMens" style="font-size: 60px; text-align: justify;">Womens</a>
+</body>
