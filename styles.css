@@ -111,3 +111,36 @@ img{
     margin: 10px; 
     padding: 15px;
 }
+
+.contact{
+    text-align: center;
+}
+.contact a{
+    height: 80px;
+    width: 500px;
+    display: inline-block;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px; 
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.contact a:hover{
+    background-color: rgb(226, 222, 222);
+
+}
+
+table{
+    position: absolute;
+    left: 300px;
+    width: 800px;
+    height: 400px;
+    top: 150px
+}
+
+table td{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}

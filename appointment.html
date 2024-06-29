@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tattoo House Nepal</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href = "index.html" style="font-size:20px; font-family: 'Courier New', Courier, monospace; text-decoration: none; display: inline-block; padding: 20px;">
+            <b>
+            Tattoo House <br> Nepal
+            </b>
+            </a>
+            <div class = "navigation">
+                <a href = "index.html">Home</a>
+                <a href = "gallery.html">Gallery</a>
+                <a href = "aboutus.html">About Us</a>
+                <a href = "contact.html">Contact</a>
+                <a href = "faq.html">FAQs</a>
+            </div>
+        </div>
+        <table style="border: 2px solid black; padding: 10px;">
+            <tr>
+                <td>Name</td>
+                <td>
+                    <form>
+                        <input type="text" name="name" size="20" id="name">
+                        <br>
+                        <span id="nameError"></span>
+                        <br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone no</td>
+                <td>
+                    <form>
+                        <input type="text" name="phone" size="20" id="phone">
+                        <br>
+                        <span id = "phoneError"></span>
+                        <br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Tattoo Artist</td>
+                <td>
+                    <form>
+                        <select id="artist" name="artist" style="width: 200px;">
+                            <option value="Niraj" >Niraj</option>
+                            <option value="Ram">Ram</option>
+                            <option value="Sam">Sam</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>
+                    <form>
+                        <input type="date" name="date" size="20" id="date">
+                        <br>
+                        <span id ="dateError"></span>
+                        <br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td>
+                    <form>
+                        <input type="time" name="time" size="20" id="time">
+                        <br>
+                        <span id ="timeError"></span>
+                        <br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Extra Details</td>
+                <td>
+                    <form>
+                        <textarea id="review" name="review" style="width: 400px; height: 200px;"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <form action="mailto:ksniraj24@tbc.edu.np">
+                        <input type="submit" value="Submit" name="submit">
+                        <input type="reset" value="Reset" name="reset">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <hr style="margin-top: 500px;">
+        <footer>
+            <h3 style="position:absolute; top:620px;">
+                Address
+            </h3>
+            <p style="position:absolute; top:650px;">
+                Shantinagar, New Baneshwor<br>
+                Kathmandu, Nepal<br>
+                44600
+            </p>
+            <span class="Contact" style="position: absolute; top: 610px;">
+                <h3>Contact US</h3>
+                <p>+977-9865593102<br>
+                  info@tattoohousenepal.com  
+                </p>
+            </span>
+            <span style="position: absolute; top: 620px;; left: 700px">
+                <a href="#header">Back to Top</a>
+            </span>
+            <span style="position: absolute; top: 600px;; left: 1000px">
+                <p>&copy; Tattoo House Nepal<br>
+                All parts of this website is protected and shall not be <br>
+                replicated or reproduced in the absense of written permission<br>
+                from the owner.</p>
+
+            </span>
+        </footer> 
+    </body>
+</html>
