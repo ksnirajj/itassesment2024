@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(245, 245, 241)
+    background-color: rgb(245, 245, 241);
 }
 
 .header{
@@ -34,4 +34,80 @@ body{
     background-color: aliceblue;
     border: 1px solid black;
   
+}
+
+img{
+    padding: 2.5%;
+    border: 0px; 
+    border-radius: 3%; 
+    background-color: rgb(229, 229, 229);
+}
+
+.hometext{
+    width: 43%;
+    height: 680px;
+    padding: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: 0px; 
+    border-radius: 5%; 
+    background-color: rgb(229, 229, 229);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    position: relative;
+    top: -715px;
+    left: 52%;
+
+}
+
+.artist{
+    width: 94%;
+    height: 600px;
+    padding: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: 0px; 
+    border-radius: 5%; 
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    position: absolute;
+    top: 1570px;
+    color: whitesmoke;
+}
+
+.Contact{
+    position: absolute;
+    left: 400px;
+    
+}
+
+.faq{
+    border: 0px; 
+    border-radius: 5%; 
+    background-color: rgb(229, 229, 229);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 10px; 
+    padding: 15px;
+}
+
+.faq dl dt{
+    font-size:18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.faq dl dd {
+    font-size:medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutus{
+    border: 0px; 
+    border-radius: 5%; 
+    background-color: rgb(229, 229, 229);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 10px; 
+    padding: 15px;
 }
