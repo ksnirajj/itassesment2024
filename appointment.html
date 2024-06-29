@@ -19,76 +19,60 @@
                 <a href = "faq.html">FAQs</a>
             </div>
         </div>
-        <table style="border: 2px solid black; padding: 10px;">
+        <form id="appointment">
+        <table style="border: 2px solid black; padding: 10px; position: absolute; top: 110px ;">
             <tr>
                 <td>Name</td>
                 <td>
-                    <form>
+                    
                         <input type="text" name="name" size="20" id="name">
-                        <br>
-                        <span id="nameError"></span>
-                        <br>
-                    </form>
                 </td>
             </tr>
             <tr>
                 <td>Phone no</td>
                 <td>
-                    <form>
                         <input type="text" name="phone" size="20" id="phone">
-                        <br>
-                        <span id = "phoneError"></span>
-                        <br>
-                    </form>
                 </td>
             </tr>
             <tr>
                 <td>Tattoo Artist</td>
                 <td>
-                    <form>
                         <select id="artist" name="artist" style="width: 200px;">
                             <option value="Niraj" >Niraj</option>
                             <option value="Ram">Ram</option>
                             <option value="Sam">Sam</option>
                         </select>
-                    </form>
+
                 </td>
             </tr>
             <tr>
                 <td>Date</td>
                 <td>
-                    <form>
                         <input type="date" name="date" size="20" id="date">
-                        <br>
-                        <span id ="dateError"></span>
-                        <br>
-                    </form>
                 </td>
             </tr>
             <tr>
                 <td>Time</td>
                 <td>
-                    <form>
                         <input type="time" name="time" size="20" id="time">
                         <br>
                         <span id ="timeError"></span>
                         <br>
-                    </form>
+                
                 </td>
             </tr>
             <tr>
                 <td>Extra Details</td>
                 <td>
-                    <form>
                         <textarea id="review" name="review" style="width: 400px; height: 200px;"></textarea>
-                    </form>
+                    
                 </td>
             </tr>
             <tr>
                 <td></td>
                 <td>
-                    <form action="mailto:ksniraj24@tbc.edu.np">
-                        <input type="submit" value="Submit" name="submit">
+                    
+                        <input type="submit" value="submit" name="submit">
                         <input type="reset" value="Reset" name="reset">
                     </form>
                 </td>
